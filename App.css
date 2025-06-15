@@ -1,0 +1,165 @@
+body{
+  margin: 0;
+  padding: 0px;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: darkslateblue;
+}
+
+
+.app-container{
+padding: 8px;
+width: 400px;
+background-color: white;
+border-radius: 5px;
+box-shadow: 0 4px 9px ;
+
+}
+
+.input-container{
+border-radius: 4px;
+border: 2px solid rgb(19, 215, 245);
+display: flex;
+overflow: hidden;
+padding:4px;
+margin-top: 7px;
+
+
+
+}
+
+.cityinput{
+  outline: none;
+  flex:1;
+  padding:3px;
+  height: 30px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: none;
+  
+
+}
+.search-icon{
+  height: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+
+.image{
+  height: 40px;
+  display: flex;
+  position:relative ;
+  top: -14px;
+  right: -3px;
+
+}
+.icons{
+  
+  height: 12rem;
+  display: flex;
+  justify-content: center;
+  padding:15px ;
+}
+
+.icons image{
+  height: 90px;
+  padding:15px ;
+}
+
+
+.temp,
+.location,
+.country{
+  padding: 2px;
+  display: flex;
+  justify-content: center;
+  font-size: large;
+  font-weight: bold;
+}
+
+.temp{
+  font-weight:bolder;
+  font-size: 25px;
+  font-style: normal;
+}
+.location{
+  color:#ffbc00;
+  font-size: 30px;
+  
+}
+.card{
+ 
+  padding: 10px;
+  align-items: center;
+  display: flex;
+ 
+  justify-content: center;
+}
+
+.card div{
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  padding: 8px;
+  margin: 5px;
+  font-size: 300;
+}
+.card div span:nth-child(2){
+  font-size: 18px;
+  font-weight: bold;
+  padding-top: 9px;
+  color: #666;
+}
+
+.humicontainer{
+ 
+  height: 80px;
+  display: flex;
+  position: relative;
+  bottom:-3rem;
+  justify-content: space-between;
+ padding: 20px;
+ padding-left: 4px;
+ padding-right: 5px;
+ 
+
+
+}
+.humiicon{
+  height: 4rem;
+  padding: 7px;
+  margin-top: 1px;
+  transform: scale(0.7);
+  position:relative;
+  top: -4rem;
+
+
+}
+.data{
+  position: relative;
+  top: -6rem;
+  align-items: center;
+  display:flex;
+  justify-content: center;
+padding: 5px;
+  flex-direction: column;
+  margin: 6px;
+  }
+
+.loading,
+.citynotfound,
+.error{
+   margin-top: 10px;
+   font-size: 25px;
+   font-weight: bold;
+   color:#666;
+   text-align: center;
+   font-weight: 400;
+   
+
+}
